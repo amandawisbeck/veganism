@@ -84,6 +84,10 @@ footer	{
 	clear:both;
 }
 
+#mobilemenu {
+	display: none;
+}
+
 @media only screen and (max-width: 767px) {
 	header img {
 		float: none;
@@ -100,5 +104,17 @@ footer	{
 	.slider-wrapper { 
 		width: auto; 
 		margin: auto;
+	}
+	/*  Hide the navigation menu and display the slicknav compact menu  */
+	#nav_menu {
+		display: none !important;
+	}
+	#mobilemenu {
+		display: block !important;
+		background-color: black !important;
+	}
+	#mobilemenu ul li a {
+		color:turquoise !important;
+		font-size: 120% !important;
 	}
 }
