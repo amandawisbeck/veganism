@@ -51,7 +51,6 @@ aside, nav, article, figure {
 /*===================*/
 body {
 	color:#333;
-	
 	max-width: 960px;
 	width: 100%;
 }
@@ -86,9 +85,6 @@ footer	{
 }
 
 @media only screen and (max-width: 767px) {
-	html{
-		background: none;
-	}
 	header img {
 		float: none;
 	}
