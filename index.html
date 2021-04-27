@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This sentence will appear under the link in search engine results.">
+	<meta name="keywords" content="list,of,words,separated,by,commas,that,describe,your,site">
+	<meta name="author" content="Your name goes here">
+
+	<!-- viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- shiv which should be a shim -->
+    <!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- tab title -->
+	<title>Veganism</title>
+
+	<!-- favicon link -->
+	<link rel="shortcut icon" href="bimages/plantlogo.png">
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">
+
+    <!-- slicknav -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>   <!-- Link to jQuery Content Delivery Network - Necessary for SlickNav to work correctly -->
+    <script src="js/jquery.slicknav.min.js"></script>                     <!-- Link to the slicknav file inside the js folder - Necessary for SlickNav to work correctly -->
+
+	<!-- slicknav javascript - this javascript code will use the UL inside the nav_menu tag to build the same menu in slickNav format -->
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+    	});
+    </script>
+
+</head>
+
+<body>
+
+	<header class="clearfix">
+
+		<a href="index.html"><img src="bimages/plantlogo.png"></a>
+
+		<h2><a href="index.html">Veganism</a></h2>
+
+		<h3><span class="shadow">For the planet, the animals and our health</span></h3>
+
+	</header>
+
+
+    <nav id="mobilemenu"></nav>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html" class="current">Home</a></li>
+        	<li><a href="gallery.html" class="current">Gallery</a></li>
+			<li><a href="videos.html" class="current">Videos</a></li>
+        	<li><a href="slideshow.html" class="current">Slideshow</a></li>
+    	</ul>
+    </nav>
+    
+    <section id=homeimage><img src ="images/colton-jones-hDCRjAkp6_M-unsplash.jpg"></section>
+
+    <main id="homepage">
+        <section>
+        <p>"Veganism is a philosophy and way of living which seeks to exclude—as far as is possible and practicable—all forms of exploitation of, and cruelty to, animals for food, clothing or any other purpose; and by extension, promotes the development and use of animal-free alternatives for the benefit of animals, humans and the environment. In dietary terms it denotes the practice of dispensing with all products derived wholly or partly from animals."</p>
+    </section>
+    <section>
+        <p>There are many ways to embrace vegan living. Yet one thing all vegans have in common is a plant-based diet avoiding all animal foods such as meat (including fish, shellfish and insects), dairy, eggs and honey - as well as avoiding animal-derived materials, products tested on animals and places that use animals for entertainment. Vegans choose not to support animal exploitation in any form and so avoid visiting zoos or aquariums, or taking part in dog or horse racing. A great alternative is visiting and supporting animal sanctuaries that provide safe and loving homes for rescued animals.</p>
+    </section>
+    <section>
+        <p><h3>For the animals</h3>Preventing the exploitation of animals is not the only reason for becoming vegan, but for many it remains the key factor in their decision to go vegan and stay vegan. Having emotional attachments with animals may form part of that reason, while many believe that all sentient creatures have a right to life and freedom. Specifics aside, avoiding animal products is one of the most obvious ways you can take a stand against animal cruelty and animal exploitation everywhere.</p>
+    </section>
+    <section>
+        <p><h3>For your health</h3>Well-planned vegan diets follow healthy eating guidelines, and contain all the nutrients that our bodies need. Both the British Dietetic Association and the American Academy of Nutrition and Dietetics recognise that they are suitable for every age and stage of life. Some research has linked vegan diets with lower blood pressure and cholesterol, and lower rates of heart disease, type 2 diabetes and some types of cancer.</p><p>Going vegan is a great opportunity to learn more about nutrition and cooking, and improve your diet. Getting your nutrients from plant foods allows more room in your diet for health-promoting options like whole grains, fruit, nuts, seeds and vegetables, which are packed full of beneficial fibre, vitamins and minerals.</p>
+    </section>
+    <section>
+        <p><h3>For the environment</h3>From recycling our household rubbish to cycling to work, we're all aware of ways to live a greener life. One of the most effective things an individual can do to lower their carbon footprint is to avoid all animal products. This goes way beyond the problem of cow flatulence! The production of meat and other animal products places a heavy burden on the environment - from crops and water required to feed the animals, to the transport and other processes involved from farm to fork. The vast amount of grain feed required for meat production is a significant contributor to deforestation, habitat loss and species extinction. In Brazil alone, the equivalent of 5.6 million acres of land is used to grow soya beans for animals in Europe. This land contributes to developing world malnutrition by driving impoverished populations to grow cash crops for animal feed, rather than food for themselves. On the other hand, considerably lower quantities of crops and water are required to sustain a vegan diet, making the switch to veganism one of the easiest, most enjoyable and most effective ways to reduce our impact on the environment.</p>
+    </section>
+    <section>
+        <p><h3>For people</h3>Just like veganism is the sustainable option when it comes to looking after our planet, plant-based living is also a more sustainable way of feeding the human family. A plant-based diet requires only one third of the land needed to support a meat and dairy diet. With rising global food and water insecurity due to a myriad of environmental and socio-economic problems, there's never been a better time to adopt a more sustainable way of living. Avoiding animal products is not just one of the simplest ways an individual can reduce the strain on food as well as other resources, it's the simplest way to take a stand against inefficient food systems which disproportionately affect the poorest people all over the world.</p>
+    </section>
+    </main>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+    
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("cornerBtn").style.display = "block";
+          } else {
+            document.getElementById("cornerBtn").style.display = "none";
+          }
+        }
+    
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+            <script>
+                window.onload = function() {
+                    var d = new Date();
+                    document.getElementById("copyright").innerHTML = d.getFullYear();
+                }
+            </script>
+            <footer>
+        
+                <p>&copy; <span id="copyright"></span>Amanda Wisbeck</p>
+            </footer>
+        </body>
+        </html>
