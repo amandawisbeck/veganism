@@ -506,6 +506,22 @@ footer p {
 		bottom: 0px;
 	}
 
+	.nivo-caption {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	
+	.nivo-directionNav {
+		margin: 0;
+		padding: 0;
+	}
+
+	.nivoSlider	{
+		margin: 0;
+		padding: 0;
+	}
+
+
 }
 /**Up to 600px**/
 @media (max-width: 600px) {
